@@ -16,8 +16,8 @@ const houses = [
         size: '5x6 м',
         constrPeriod: '16 дней',
         numRooms: '5',
-        houseType: 'Одноэтажный',
-        price: '1 780 000'
+        houseType: 'С панорамными окнами',
+        price: '1 781 000'
     },
     {
         houseImg: 'House.png',
@@ -26,8 +26,8 @@ const houses = [
         size: '5x6 м',
         constrPeriod: '16 дней',
         numRooms: '5',
-        houseType: 'Одноэтажный',
-        price: '1 780 000'
+        houseType: 'С мансардой',
+        price: '1 782 000'
     },
     {
         houseImg: 'House.png',
@@ -36,8 +36,8 @@ const houses = [
         size: '5x6 м',
         constrPeriod: '16 дней',
         numRooms: '5',
-        houseType: 'Одноэтажный',
-        price: '1 780 000'
+        houseType: 'С цокольным этажом',
+        price: '1 783 000'
     },
     {
         houseImg: 'House.png',
@@ -46,8 +46,8 @@ const houses = [
         size: '5x6 м',
         constrPeriod: '16 дней',
         numRooms: '5',
-        houseType: 'Одноэтажный',
-        price: '1 780 000'
+        houseType: 'С гаражом',
+        price: '1 784 000'
     },
     {
         houseImg: 'House.png',
@@ -56,8 +56,8 @@ const houses = [
         size: '5x6 м',
         constrPeriod: '16 дней',
         numRooms: '5',
-        houseType: 'Одноэтажный',
-        price: '1 780 000'
+        houseType: 'Трехэтажные',
+        price: '1 785 000'
     }
 ];
 
@@ -130,7 +130,7 @@ function createCard(cardData){
     let cardButton = document.createElement("div");
     cardButton.classList.add("card__button");
     cardButton.classList.add("font__preset");
-    cardButton.innerText = " ПРОЕКТЫ >";
+    cardButton.innerText = "СМОТРЕТЬ ПРОЕКТЫ >";
 
     let cardPersPlan = document.createElement("div");
     cardPersPlan.className = "card__persplan";
