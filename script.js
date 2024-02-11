@@ -136,7 +136,7 @@ function createCard(cardData){
     cardPersPlan.className = "card__persplan";
     let cardPPImg = document.createElement("img");
     cardPPImg.className = "card__persplan-img";
-    cardPPImg.src = "./img/checkimg.png";
+    cardPPImg.src = "./img/c1.png";
     cardPersPlan.appendChild(cardPPImg);
     let cardPPText = document.createElement("p");
     cardPPText.classList.add("card__persplan-item");
