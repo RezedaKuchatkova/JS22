@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.popularproj {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.popularproj__menu {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.font__preset {
+    font-family: Roboto, sans-serif;
+}
+
+.header__text {    
+    font-size: 47px;
+    color: #2d2d2f;
+    text-align: center;
+}
+
+.menu__container {
+    display: inline-block;
+}
+
+.menu__item-default {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #EFEFEF;
+    color: #5C5F66;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.menu__item-btn {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #FFFFFF;
+    color: #5C5F66;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.menu__item-btn:hover, .menu__item-default:hover {
+    background-color: #73B918;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.menu__watchall {
+    display: inline-block;
+    margin: 5px;
+    color: #F7D047;
+    font-size: 18px;
+    text-decoration-style: dotted;
+    border: 1px solid black;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 505px;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    font-size: 0px;
+    border: 1px solid black;
+}
+
+.card__image {
+    position: relative;
+    margin: 0px;
+    width: 350px;
+    height: 220px;
+    display: block;
+}
+
+.card__header {
+    position: relative;
+    margin: 15px;
+    font-size: 29px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-data__item {
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    width: 160px;
+    font-size: 13px;
+    color: #7A7D81;
+}
+
+.card__button {
+    position: relative;
+    display: inline-block;
+    width: 182px;
+    height: 12px;
+    margin-left: 15px;
+    padding: 14px 0;
+    background-color: #FEAA01;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #FCFCFE;
+    font-weight: bold;
+    text-align: center;    
+}
+
+.card__list-data {
+    list-style-type: disc;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.card-data__li {
+    position: relative;
+    width: 300px;
+    margin: 0 10px;
+    font-size: 13px;
+    color: #7A7D81;
+    text-align: justify;
+}
+
+.card-data__li-big {
+    font-size: 32px;
+    color: #73B918;
+    font-weight: bold;
+}
+
+.card__persplan {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    padding: 0;
+    margin: 15px;
+}
+
+.card__persplan-img {
+    display: inline-block;
+}
+
+.card__persplan-item {
+    display: inline-block;
+    width: 80px;
+    margin-left: 10px;
+    font-size: 9px;
+    color: #B8B8BA;
+}
